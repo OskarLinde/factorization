@@ -86,7 +86,7 @@ for m in range(N*M):
     x = m % M
     y = N - 1 - m // M
     vp = Viewport()
-    vp.cx =  (x+0.5) * 50 + extra_padding_left
+    vp.cx =  (x+0.5) * 50
     vp.cy =  (y+0.5) * 50
     vp.scale = 23
     
